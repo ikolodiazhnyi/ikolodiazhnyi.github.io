@@ -1,0 +1,51 @@
+.footer-social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100px;
+  padding: 0 30px;
+
+  border-top: 0.1px white solid;
+  background: #1e1d1b;
+}
+
+img.insta {
+  height: 37px;
+  width: 37px;
+}
+
+img.facebook {
+  width: 37px;
+  height: 37px;
+}
+
+img.youtube {
+  width: 49px;
+  height: 48px;
+}
+img.signature {
+  width: 70px;
+  height: 70px;
+}
+
+.container-creator {
+  position: relative;
+}
+
+img[src="images/© 2023.svg"] {
+  position: absolute;
+  right: -41px;
+}
+
+#author {
+  font-size: 12px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-block {
+    display: flex;
+  }
+}
+

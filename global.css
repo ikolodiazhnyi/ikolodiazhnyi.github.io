@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1e1d1b;
+  font-style: normal;
+}
+
+body {
+  overflow: scroll;
+}
+
+#container {
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #202731;
+}
+
+div {
+  max-width: 100%;
+}
+
+div.discount-container {
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1e1d1b;
+  border-radius: 0px;
+}
+
+h1.discount {
+  height: 14px;
+
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.background {
+  background: url(./images/orange-house.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 2400px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.nav {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 9px;
+  line-height: 10px;
+
+  color: #1e1d1b;
+}
+
+nav {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+div.container-nav {
+  width: 100%;
+}
+
+div.nav {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 12px 25px 0px;
+}
+
+div.group-1 {
+  width: 260px;
+}
+
+div.group-2 {
+  width: 350px;
+}
+
+div.nav-center-block {
+  display: flex;
+  justify-content: center;
+}
+
+a.nav-center-link {
+  line-height: 9px;
+  font-size: 12px;
+}
+
+

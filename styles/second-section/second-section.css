@@ -1,0 +1,141 @@
+.second-section > div::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 0px;
+  height: 6px;
+}
+
+.second-section > div::-webkit-scrollbar-track-piece {
+  width: 20px;
+}
+
+.second-section > div::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #d4d7d8;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.second-section > div {
+  scroll-snap-type: x mandatory;
+
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+  flex: none;
+
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+}
+
+.scroll {
+  height: 128px;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+.second-section > header {
+  font-size: 55px;
+  margin-bottom: 27px;
+  padding-top: 61px;
+  padding-left: 25px;
+}
+
+.second-section > div > .first-block {
+  width: 400px;
+  height: 533px;
+
+  background: #232323f0;
+  border-radius: 0px;
+}
+
+.icon {
+  position: relative;
+  width: 87px;
+  height: 87px;
+  display: inline-block;
+}
+.octicon {
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
+
+#figma {
+  position: absolute;
+  right: -46px;
+  bottom: -92px;
+}
+.second-section > div > .second-block {
+  position: relative;
+
+  width: 400px;
+  height: 533px;
+
+  background: #f37138;
+  border-radius: 0px;
+}
+
+.second-section > div > .third-block {
+  width: 400px;
+  height: 533px;
+
+  background: url(../../images/man.svg);
+  border-radius: 0px;
+}
+
+#text {
+  padding: 12px;
+}
+
+.first-block > #text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-rl;
+}
+
+.first-block * h1 {
+  font-size: 37px;
+}
+
+.first-block * p {
+  font-size: 22px;
+}
+
+.first-block * h1,
+.first-block * p {
+  color: #fff;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.second-block > #text > h1 {
+  font-size: 25px;
+}
+
+.second-block > #text > p {
+  width: 364px;
+  font-size: 20px;
+}
+
+#img-2block {
+  position: absolute;
+  bottom: 37px;
+  right: 37px;
+}
+
+.second-block > a {
+  width: 234px;
+  height: 39px;
+
+  position: absolute;
+  top: 494px;
+  left: 14px;
+
+  font-size: 24px;
+  letter-spacing: 0.492308px;
+  line-height: 22px;
+
+  overflow: hidden;
+}
