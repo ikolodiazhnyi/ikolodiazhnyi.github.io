@@ -96,7 +96,7 @@
   writing-mode: vertical-rl;
 }
 
-.first-block * h1 {
+.first-block * h2 {
   font-size: 37px;
 }
 
@@ -104,13 +104,13 @@
   font-size: 22px;
 }
 
-.first-block * h1,
+.first-block * h2,
 .first-block * p {
   color: #fff;
   font-family: "Rubik Mono One", sans-serif;
 }
 
-.second-block > .text > h1 {
+.second-block > .text > h2 {
   font-size: 25px;
 }
 

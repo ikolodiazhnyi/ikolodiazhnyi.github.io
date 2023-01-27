@@ -53,7 +53,7 @@ h1.discount {
   max-width: 2400px;
 }
 
-div.nav {
+ul.nav {
   list-style-type: none;
 
   display: flex;
@@ -81,11 +81,11 @@ div.nav {
   padding: 12px 25px 0px;
 }
 
-div.group-1 {
+ul.group-1 {
   width: 260px;
 }
 
-div.group-2 {
+ul.group-2 {
   width: 350px;
 }
 
