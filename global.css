@@ -53,11 +53,7 @@ h1.discount {
   max-width: 2400px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-ul.nav {
+div.nav {
   list-style-type: none;
 
   display: flex;
@@ -102,5 +98,3 @@ a.nav-center-link {
   line-height: 9px;
   font-size: 12px;
 }
-
-

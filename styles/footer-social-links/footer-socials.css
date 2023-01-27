@@ -33,7 +33,7 @@ img.signature {
   position: relative;
 }
 
-img[src="images/© 2023.svg"] {
+img[src="images/2023.svg"] {
   position: absolute;
   right: -41px;
 }
